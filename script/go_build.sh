@@ -7,7 +7,6 @@ go_build() {
     local build_dir=$2
     local dist_dir=".dist"
 
-    dep ensure -v
     cd $build_dir
 
     sudo rm -rf "${dist_dir}"
